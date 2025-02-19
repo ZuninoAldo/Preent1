@@ -1,0 +1,39 @@
+.Counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ece6e6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Controls {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Button:hover {
+    background-color: #555;
+}
+
+.Number {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

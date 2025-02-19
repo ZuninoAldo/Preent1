@@ -1,0 +1,35 @@
+.item-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    background-color: #fff;
+    transition: transform 0.2s;
+}
+
+.item-card:hover {
+    transform: scale(1.05);
+}
+
+.item-card img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.item-card h3 {
+    font-size: 1.5em;
+    margin: 16px 0;
+}
+
+.item-card p {
+    font-size: 1em;
+    color: #666;
+}
+
+.item-card .price {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+    margin-top: 8px;
+}
