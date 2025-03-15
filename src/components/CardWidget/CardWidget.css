@@ -1,0 +1,12 @@
+.cartWidget{
+    margin: auto;
+    background-color: lightgoldenrodyellow;
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 15px;
+    color: black;
+}
+
+.carrito{
+    width: 35px;
+}

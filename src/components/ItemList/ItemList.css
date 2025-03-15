@@ -1,0 +1,6 @@
+.ListGroup{
+    display: grid;
+    grid-template-columns: repeat(4, 325px);
+    gap: 10px;
+    margin: 50px auto;
+}

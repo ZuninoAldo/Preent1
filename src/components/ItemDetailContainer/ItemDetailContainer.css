@@ -1,42 +1,6 @@
-.item-detail-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.item-detail-header {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.item-detail-description {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 20px;
-}
-
-.item-detail-price {
-    font-size: 20px;
-    color: #e91e63;
-    font-weight: bold;
-}
-
-.item-detail-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.item-detail-button:hover {
-    background-color: #0056b3;
+.itemDetailContainer {
+    width: 85%;
+    color: gray;
+    margin: auto;
+    padding: 50px;
 }

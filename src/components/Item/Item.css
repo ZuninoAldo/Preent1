@@ -1,35 +1,51 @@
-.item-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 16px;
-    margin: 16px;
-    background-color: #fff;
-    transition: transform 0.2s;
+.cardItem{
+    background-color: gray;
+    border-radius: 15px;
 }
 
-.item-card:hover {
-    transform: scale(1.05);
+.itemHeader{
+    height: 45px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
 }
 
-.item-card img {
-    max-width: 100%;
-    border-radius: 8px 8px 0 0;
+.itemImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 
-.item-card h3 {
-    font-size: 1.5em;
-    margin: 16px 0;
+.itemImgContainer{
+    width: 270px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
 }
 
-.item-card p {
-    font-size: 1em;
-    color: #666;
+.sectionItem {
+    display: flex;
+    justify-content: space-around;
 }
 
-.item-card .price {
-    font-size: 1.2em;
-    color: #333;
-    font-weight: bold;
-    margin-top: 8px;
+.sectionItem P{
+    color: white;
+    font-size: 17px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.option{
+    background-color: white;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
 }
